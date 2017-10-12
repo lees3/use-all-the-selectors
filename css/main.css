@@ -1,5 +1,5 @@
 body {
-  background-color: fdf6e3;
+  background-color: #fdf6e3;
 }
 
 header {
@@ -19,7 +19,11 @@ nav {
 }
 
 .wrapper {
-  #b58900
+  background-color: #eee8d5;
+}
+
+.dfn .wrapper {
+  background-color: #b58900;
 }
 
 #contents {
@@ -39,7 +43,7 @@ nav {
 }
 
 .wrapper p {
-  background-color: #b58900
+  background-color: #b58900;
 }
 
 .dfn + strong {
@@ -47,15 +51,17 @@ nav {
 }
 
 a {
-  background-color: #719e07
+  background-color: #719e07;
 }
 
 .no-highlight {
-  background-color: none;
+  background-color: transparent;
 }
+
 [rel="external"] {
   background-color: #2694d8;
 }
+
 ol li:nth-child(1) {
   color: #719e47;
 }
@@ -67,10 +73,11 @@ ol li:nth-child(3) {
 .types li:nth-child(odd) {
   background-color: #657ba3;
 }
+
 .types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types li:nth-child(3n+3){
+.types li:nth-child(3n+3) {
   background-color: #d04b16;
 }
